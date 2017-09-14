@@ -1,0 +1,18 @@
+[x] GPU hardware acceleration
+[ ] CPU Speedstepping / Turbo / Power management
+[x] Temperature sensors
+[x] Audio
+[x] Ethernet
+[ ] Power button
+[x] Sleep
+[x] - Video wakes up
+[x] - Enters low power mode
+[x] - Audio wakes up
+[x] - Ethernet wakes up
+[x] Shutdown
+[x] - Stays shut down
+[x] - CMOS does not reset
+[ ] iMessage / Facetime
+[x] USB 3.x
+[x] HDMI Audio
+[ ] High Current USB

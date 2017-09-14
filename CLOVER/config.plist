@@ -329,48 +329,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>t1-10.12-AppleHDA/Realtek ALC...</string>
-				<key>Find</key>
-				<data>
-				ihnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>t1-10.9-10.12-AppleHDA/Realtek ALC1150</string>
-				<key>Find</key>
-				<data>
-				ixnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAnsEA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>t1-AppleHDA/Resources/xml&gt;zml</string>
-				<key>Find</key>
-				<data>
-				eG1sLnps
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				em1sLnps
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>IONVMeFamily Pike R. Alpha Patch#1</string>
 				<key>Disabled</key>
 				<false/>
@@ -720,8 +678,6 @@
 		<string>0xffff</string>
 		<key>CustomUUID</key>
 		<string></string>
-		<key>InjectKexts</key>
-		<string>YES</string>
 		<key>InjectSystemID</key>
 		<true/>
 		<key>NvidiaWeb</key>

@@ -35,9 +35,33 @@
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
+			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+		</array>
 		<key>ResetAddress</key>
 		<string>0x0000</string>
 		<key>ResetValue</key>
@@ -87,8 +111,8 @@
 		<string>_NOT_SHOWN_</string>
 		<key>#LegacyBiosDefaultEntry</key>
 		<integer>0</integer>
-		<key>#NeverHibernate</key>
-		<false/>
+		<key>NeverHibernate</key>
+		<true/>
 		<key>#StrictHibernate</key>
 		<false/>
 		<key>#Timeout</key>
@@ -98,13 +122,13 @@
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
-		<string>䗘첄</string>
+		<string>boot.efi</string>
 		<key>DefaultVolume</key>
 		<string></string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>XMPDetection</key>
-		<false/>
+		<string>Yes</string>
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
@@ -175,7 +199,7 @@
 		<dict>
 			<key>#Inject</key>
 			<integer>0</integer>
-			<key>#ResetHDA</key>
+			<key>ResetHDA</key>
 			<true/>
 		</dict>
 		<key>FakeID</key>
@@ -290,7 +314,7 @@
 		<false/>
 		<key>#FakeCPUID</key>
 		<string>0x000506e3</string>
-		<key>#KextsToPatch</key>
+		<key>KextsToPatch</key>
 		<array>
 			<dict>
 				<key>Comment</key>
@@ -487,6 +511,22 @@
 				<string>this is a sample</string>
 				<key>Disabled</key>
 				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change 15 port limit to 26 in XHCI kext (100-series)</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g710////EA==
+				</data>
+				<key>Name</key>
+				<string>AppleUSBXHCIPCI</string>
+				<key>Replace</key>
+				<data>
+				g710////Gw==
+				</data>
 			</dict>
 		</array>
 		<key>#Number of KextsToPatch</key>

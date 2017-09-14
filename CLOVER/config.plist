@@ -35,33 +35,9 @@
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
-				</dict>
-			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-		</array>
 		<key>ResetAddress</key>
 		<string>0x0000</string>
 		<key>ResetValue</key>
@@ -111,8 +87,8 @@
 		<string>_NOT_SHOWN_</string>
 		<key>#LegacyBiosDefaultEntry</key>
 		<integer>0</integer>
-		<key>NeverHibernate</key>
-		<true/>
+		<key>#NeverHibernate</key>
+		<false/>
 		<key>#StrictHibernate</key>
 		<false/>
 		<key>#Timeout</key>
@@ -122,13 +98,13 @@
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
-		<string>boot.efi</string>
+		<string>䗘첄</string>
 		<key>DefaultVolume</key>
 		<string></string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<false/>
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
@@ -197,10 +173,10 @@
 		<false/>
 		<key>Audio</key>
 		<dict>
-			<key>#Inject</key>
-			<integer>0</integer>
+			<key>Inject</key>
+			<integer>1</integer>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -316,6 +292,186 @@
 		<string>0x000506e3</string>
 		<key>KextsToPatch</key>
 		<array>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>eG1sLnps</data>
+				<key>Replace</key>
+				<data>em1sLnps</data>
+				<key>Comment</key>
+				<string>AppleHDA/Resources/xml&gt;zml</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>hQjsEA==</data>
+				<key>Comment</key>
+				<string>110.9-10.12-AppleHDA/Realtek ALC885 (Optional)</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>hwjsEA==</data>
+				<key>Comment</key>
+				<string>10.9-10.12-AppleHDA/Realtek ALC887</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>iAjsEA==</data>
+				<key>Comment</key>
+				<string>10.9-10.12-AppleHDA/Realtek ALC888</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>iQjsEA==</data>
+				<key>Comment</key>
+				<string>10.9-10.12-AppleHDA/Realtek ALC889</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>kgjsEA==</data>
+				<key>Comment</key>
+				<string>10.9-10.12-AppleHDA/Realtek ALC892</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>mQjsEA==</data>
+				<key>Comment</key>
+				<string>10.9-10.12-AppleHDA/Realtek ALC898</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>AAnsEA==</data>
+				<key>Comment</key>
+				<string>10.9-10.12-AppleHDA/Realtek ALC1150</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>YgLsEA==</data>
+				<key>Replace</key>
+				<data>aQLsEA==</data>
+				<key>Comment</key>
+				<string>10.9-10.12-AppleHDA/Realtek ALC269</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>YgLsEA==</data>
+				<key>Replace</key>
+				<data>gwLsEA==</data>
+				<key>Comment</key>
+				<string>110.9-10.12-AppleHDA/Realtek ALC283</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>gxnUEQ==</data>
+				<key>Replace</key>
+				<data>AAAAAA==</data>
+				<key>Comment</key>
+				<string>10.11-AppleHDA/Realtek ALC...</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Find</key>
+				<data>PQwKAAA=</data>
+				<key>Replace</key>
+				<data>PQwMAAA=</data>
+				<key>Comment</key>
+				<string>HD4600_HDMI_Audio-2of2</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Find</key>
+				<data>PQsMAAA=</data>
+				<key>Replace</key>
+				<data>PQwMAAA=</data>
+				<key>Comment</key>
+				<string>HD4600_HDMI_Audio-1of2</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ihnUEQ==</data>
+				<key>Replace</key>
+				<data>AAAAAA==</data>
+				<key>Comment</key>
+				<string>10.12-AppleHDA/Realtek ALC...</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>ZwjsEA==</data>
+				<key>Comment</key>
+				<string>10.12-AppleHDA/Realtek ALC891</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>aBHsEA==</data>
+				<key>Comment</key>
+				<string>10.12-AppleHDA/Realtek ALC1220A</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>IBLsEA==</data>
+				<key>Comment</key>
+				<string>10.12-AppleHDA/Realtek ALC1220</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>AppleHDAController</string>
+				<key>Find</key>
+				<data>cKE=</data>
+				<key>Replace</key>
+				<data>8KI=</data>
+				<key>Comment</key>
+				<string>200_Series_ Audio_Controller</string>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>IONVMeFamily Pike R. Alpha Patch#1</string>
@@ -511,22 +667,6 @@
 				<string>this is a sample</string>
 				<key>Disabled</key>
 				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change 15 port limit to 26 in XHCI kext (100-series)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g710////EA==
-				</data>
-				<key>Name</key>
-				<string>AppleUSBXHCIPCI</string>
-				<key>Replace</key>
-				<data>
-				g710////Gw==
-				</data>
 			</dict>
 		</array>
 		<key>#Number of KextsToPatch</key>

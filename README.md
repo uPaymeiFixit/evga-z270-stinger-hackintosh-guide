@@ -1,4 +1,4 @@
-# evga-z270-stinger-hackintosh-guide
+# Sierra Hackintosh Guide on EVGA Z270 Stinger (200 series)
 A guide for installing macOS Sierra on an EVGA Z270 Stinger motherboard and i7-7700k
 
 This guide will show you how to install **macOS Sierra 10.12.6** on a desktop running an EVGA Z270 Stinger motherboard. There are no changes made to the operating system partition, resulting in a very *vanilla* and therfore upgradable experience. For best results, use the hardware listed below.
@@ -40,6 +40,7 @@ Note: This guide may need to be tweaked or similar hardware, such as any other 2
 - [ ] Wi-Fi (AW-CB210NF-P)
 - [ ] Bluetooth
 
+# Instructions
 ## Step 1: Download macOS Sierra
 On a separate Mac, veriy that you are up to date (at least 10.12.6).
 ![image](https://user-images.githubusercontent.com/1683528/30447848-073ba4b8-9942-11e7-962b-83fb0e4cc110.png)

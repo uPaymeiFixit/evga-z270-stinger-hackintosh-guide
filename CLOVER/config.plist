@@ -310,7 +310,58 @@
 		</array>
 	</dict>
 	<key>SMBIOS</key>
-	<dict/>
+	<dict>
+		<key>BiosReleaseDate</key>
+		<string>08/08/2017</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>IM183.88Z.0151.B00.1708080034</string>
+		<key>Board-ID</key>
+		<string>Mac-BE088AF8C5EB4FA2</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02725403GUDM6CJA</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>iMac18,3</string>
+		<key>ChassisAssetTag</key>
+		<string>Sentry Hackintosh</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>Family</key>
+		<string>iMac</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE136</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<false/>
+		<key>OEMBoard</key>
+		<string>111-KS-E272</string>
+		<key>OEMProduct</key>
+		<string>Default string</string>
+		<key>OEMVendor</key>
+		<string>EVGA INTERNATIONAL CO.,LTD</string>
+		<key>PlatformFeature</key>
+		<string>0x00</string>
+		<key>ProductName</key>
+		<string>iMac18,3</string>
+		<key>SerialNumber</key>
+		<string>C02TW4HMJ1GJ</string>
+		<key>SmUUID</key>
+		<string>0C71D90D-FF93-448C-9D8A-07CE714416EC</string>
+		<key>Version</key>
+		<string>1.0</string>
+	</dict>
 	<key>SystemParameters</key>
 	<dict/>
 </dict>

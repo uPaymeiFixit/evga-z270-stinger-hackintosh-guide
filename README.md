@@ -35,3 +35,6 @@ Click *Continue* again and then click *Customize* and check "Install or UEI boot
 ![image](https://user-images.githubusercontent.com/1683528/30450149-d7581b9c-9945-11e7-8549-76febcebe104.png)
 
 Then click *Install* to complete the Clover installation.
+
+### Step 3: Conigure BIOS
+Disable VT-d

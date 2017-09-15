@@ -1,6 +1,45 @@
 # evga-z270-stinger-hackintosh-guide
 A guide for installing macOS Sierra on an EVGA Z270 Stinger motherboard and i7-7700k
 
+This guide will show you how to install **macOS Sierra 10.12.6** on a desktop running an EVGA Z270 Stinger motherboard. There are no changes made to the operating system partition, resulting in a very *vanilla* and therfore upgradable experience. For best results, use the hardware listed below.
+
+## Hardware
+- [EVGA Z270 Stinger (111-KS-E272-KR)](https://www.evga.com/products/product.aspx?pn=111-KS-E272-KR)
+- [i7-7700k](https://ark.intel.com/products/97129/Intel-Core-i7-7700K-Processor-8M-Cache-up-to-4_50-GHz)
+- [Asus GTX 670 4GB (GTX670-DC2-4GD5)](https://www.asus.com/us/Graphics-Cards/GTX670DC24GD5/)
+- [Samsung 960 EVO NVMe M.2 500GB](http://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-960-evo-m-2-500gb-mz-v6e500bw/)
+
+Note: This guide may need to be tweaked or similar hardware, such as any other 200 series motherboard. Any (or no) NVMe drive, any Kaby Lake CPU, and any GPU will likely work as is. 
+
+## What works
+- [x] GPU hardware acceleration
+- [x] — Metal Support
+- [x] NVMe
+- [x] — TRIM Support
+- [x] Hardware sensors
+- [x] Audio
+- [x] — HDMI Audio
+- [x] — All 5 analog in/out ports
+- [x] Ethernet
+- [x] Sleep
+- [x] — Enters low power mode
+- [x] — Audio wakes up
+- [x] — Ethernet wakes up
+- [x] — Video wakes up
+- [x] Shutdown
+- [x] — Stays shut down
+- [x] — CMOS does not reset
+- [x] USB
+- [x] — USB 3.0
+- [x] — USB 3.1
+- [x] — USB-C
+
+## What doesn't work
+- [ ] iMessage / Facetime
+- [ ] Power button
+- [ ] Wi-Fi (AW-CB210NF-P)
+- [ ] Bluetooth
+
 ## Step 1: Download macOS Sierra
 On a separate Mac, veriy that you are up to date (at least 10.12.6).
 ![image](https://user-images.githubusercontent.com/1683528/30447848-073ba4b8-9942-11e7-962b-83fb0e4cc110.png)

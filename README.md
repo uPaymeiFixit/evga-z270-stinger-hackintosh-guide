@@ -78,3 +78,14 @@ Then click *Install* to complete the Clover installation.
 
 ### Step 3: Conigure BIOS
 Disable VT-d
+
+
+# Sources
+- [NVMe Kext Patch (config.plist) from Pike R. Alpha](https://pikeralpha.wordpress.com/2016/06/27/nvmefamily-kext-bin-patch-data/comment-page-1/#comment-5855)
+- [ACPISensors.kext, CPUSensors.kext, FakeSMC.kext, GPUSensors.kext, LPCSensors.kext from HWSensors Project (Binaries)](http://www.hwsensors.com/releases)
+- [HDMIAudio.kext from Toleda](https://github.com/toleda/audio_CloverHDMI)
+- [IntelMausiEthernet.kext from Mieze](https://github.com/Mieze/IntelMausiEthernet)
+- [Lilu.kext from vit9696](https://github.com/vit9696/Lilu)
+- [AppleALC.kext from vit9696](https://github.com/vit9696/AppleALC/releases)
+- [NvidiaGraphicsFixup.kext from lvs1974](https://sourceforge.net/projects/nvidiagraphicsfixup/)
+- [USBInjectAll.kext, XHCI-200-series-injector.kext from RehabMan](https://github.com/RehabMan/OS-X-USB-Inject-All)

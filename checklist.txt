@@ -1,6 +1,5 @@
 [x] GPU hardware acceleration
-[ ] CPU Speedstepping / Turbo / Power management
-[x] Temperature sensors
+[x] Hardware sensors
 [x] Audio
 [x] Ethernet
 [ ] Power button
@@ -13,6 +12,9 @@
 [x] - Stays shut down
 [x] - CMOS does not reset
 [ ] iMessage / Facetime
-[x] USB 3.x
+[x] USB 3.0
+[x] USB 3.1
+[x] - USB-C
 [x] HDMI Audio
-[ ] High Current USB
+[ ] TRIM
+[x] Metal

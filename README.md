@@ -75,7 +75,7 @@ In the end, your terminal should look something like this.
 Download the latest version of the Clover EFI bootloader ([direct link](https://sourceforge.net/projects/cloverefiboot/files/latest/download?source=files)) and run it. (I used [Clover_v2.4k_r4200](https://sourceforge.net/projects/cloverefiboot/files/Installer/Clover_v2.4k_r4200.zip/download))
 
 Click *Continue* twice, and then *Change Install Location...* to select your flash drive.
-![image](https://user-images.githubusercontent.com/1683528/30450096-b131a168-9945-11e7-81e5-fda48c18ca9a.png)
+![image](https://user-images.githubusercontent.com/1683528/30508752-04d93520-9a53-11e7-8003-2316e5a1b725.png)
 
 Click *Continue* again and then click *Customize* and check "Install or UEI booting only"
 ![image](https://user-images.githubusercontent.com/1683528/30450149-d7581b9c-9945-11e7-8549-76febcebe104.png)

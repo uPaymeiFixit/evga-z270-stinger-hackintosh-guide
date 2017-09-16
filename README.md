@@ -67,6 +67,10 @@ You should see a volume named "USB". Now run the following command to move macOS
   sudo "/Applications/Install macOS Sierra.app/Contents/Resources/createinstallmedia" --volume /Volumes/USB --applicationpath "/Applications/Install macOS Sierra.app" --nointeraction
 ```
 
+In the end, your terminal should look something like this.
+![image](https://user-images.githubusercontent.com/1683528/30508688-9668190e-9a51-11e7-974b-a86cce6fecf1.png)
+
+
 #### Install Clover
 Download the latest version of the Clover EFI bootloader ([direct link](https://sourceforge.net/projects/cloverefiboot/files/latest/download?source=files)) and run it. (I used [Clover_v2.4k_r4200](https://sourceforge.net/projects/cloverefiboot/files/Installer/Clover_v2.4k_r4200.zip/download))
 

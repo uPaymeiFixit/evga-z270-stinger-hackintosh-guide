@@ -113,11 +113,11 @@ Open the *EFI* partition created by Clover, and replace the *CLOVER* folder with
 This will replace the `config.plist` file with the one I have created as well as install needed kexts. The `config.plist` file I created contains only the minimum configuration needed for a completely working system. I spent many hours testing many configurations and making sure only what was necessary was added. If you want to use more up-to-date kexts, view the *Sources* sectian at the bottom.
 
 # Kexts / Patches / Sources
-- [NVMe Kext Patch (config.plist) from Pike R. Alpha](https://pikeralpha.wordpress.com/2016/06/27/nvmefamily-kext-bin-patch-data/comment-page-1/#comment-5855)
-- [ACPISensors.kext, CPUSensors.kext, FakeSMC.kext, GPUSensors.kext, LPCSensors.kext from HWSensors Project (Binaries)](http://www.hwsensors.com/releases)
-- [HDMIAudio.kext from Toleda](https://github.com/toleda/audio_CloverHDMI)
-- [IntelMausiEthernet.kext from Mieze](https://github.com/Mieze/IntelMausiEthernet)
-- [Lilu.kext from vit9696](https://github.com/vit9696/Lilu)
-- [AppleALC.kext from vit9696](https://github.com/vit9696/AppleALC/releases)
-- [NvidiaGraphicsFixup.kext from lvs1974](https://sourceforge.net/projects/nvidiagraphicsfixup/)
-- [USBInjectAll.kext, XHCI-200-series-injector.kext from RehabMan](https://github.com/RehabMan/OS-X-USB-Inject-All)
+- [NVMe Kext Patch (config.plist)](https://pikeralpha.wordpress.com/2016/06/27/nvmefamily-kext-bin-patch-data/comment-page-1/#comment-5855) from Pike R. Alpha
+- [ACPISensors.kext, CPUSensors.kext, FakeSMC.kext, GPUSensors.kext, LPCSensors.kext](http://www.hwsensors.com/releases) from HWSensors Project (Binaries)
+- [HDMIAudio.kext](https://github.com/toleda/audio_CloverHDMI) from Toleda
+- [IntelMausiEthernet.kext](https://github.com/Mieze/IntelMausiEthernet) from Mieze
+- [Lilu.kext](https://github.com/vit9696/Lilu) from vit9696
+- [AppleALC.kext](https://github.com/vit9696/AppleALC/releases) from vit9696
+- [NvidiaGraphicsFixup.kext](https://sourceforge.net/projects/nvidiagraphicsfixup/) from lvs1974
+- [USBInjectAll.kext, XHCI-200-series-injector.kext](https://github.com/RehabMan/OS-X-USB-Inject-All) from RehabMan

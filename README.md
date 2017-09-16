@@ -56,19 +56,19 @@ Quit the installer when it opens.
 Plug an 8+ GB flash drive in.
 
 In /Applications/Utilities/**Terminal.app**, run `diskutil list` to find your disk identifier. Be sure, because we will be erasing this disk. For example, in the below screenshot my disk identiier is 1. 
-![image](https://user-images.githubusercontent.com/1683528/30448363-792c64ee-9943-11e7-8ff8-d60f39420dcd.png)
+![image](https://user-images.githubusercontent.com/1683528/30508728-5764503c-9a52-11e7-9c21-f96aaaf9b0d4.png)
 
 Run the following and replace `#` with your flash drive's disk identifier.
 ```
-  diskutil partitionDisk /dev/disk# GPT JHFS+ "USB" 100%
+  diskutil partitionDisk /dev/disk# GPT JHFS+ "Install macOS Sierra" 100%
 ```
-You should see a volume named "USB". Now run the following command to move macOS Sierra onto the drive. This command may take 30-40 minutes.
+You should see a volume named "Install macOS Sierra". Now run the following command to move macOS Sierra onto the drive. This command may take 30-40 minutes.
 ```
-  sudo "/Applications/Install macOS Sierra.app/Contents/Resources/createinstallmedia" --volume /Volumes/USB --applicationpath "/Applications/Install macOS Sierra.app" --nointeraction
+  sudo "/Applications/Install macOS Sierra.app/Contents/Resources/createinstallmedia" --volume /Volumes/Install\ macOS\ Sierra --applicationpath "/Applications/Install macOS Sierra.app" --nointeraction
 ```
 
 In the end, your terminal should look something like this.
-![image](https://user-images.githubusercontent.com/1683528/30508688-9668190e-9a51-11e7-974b-a86cce6fecf1.png)
+![image](https://user-images.githubusercontent.com/1683528/30508742-c1a8beb0-9a52-11e7-8de6-5d37886ba0d4.png)
 
 
 #### Install Clover

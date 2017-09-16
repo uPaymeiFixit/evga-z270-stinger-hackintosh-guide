@@ -79,7 +79,7 @@ Click *Continue* again and then click *Customize* and check "Install or UEI boot
 Then click *Install* to complete the Clover installation.
 
 #### Update Clover Configuration
-Open the *EFI* partition created by Clover, and replace the *CLOVER* folder with the most recent *CLOVER* folder [here](). 
+Open the *EFI* partition created by Clover, and replace the *CLOVER* folder with the [attached *CLOVER* folder](https://github.com/uPaymeiFixit/evga-z270-stinger-hackintosh-guide/releases/download/v0.0.1/CLOVER.zip).
 
 This will replace the `config.plist` file with the one I have created as well as install needed kexts. The `config.plist` file I created contains only the minimum configuration needed for a completely working system. I spent many hours testing many configurations and making sure only what was necessary was added. If you want to use more up-to-date kexts, view the *Sources* sectian at the bottom.
 
@@ -108,7 +108,7 @@ Click *Continue* again and then click *Customize* and check "Install or UEI boot
 Then click *Install* to complete the Clover installation.
 
 #### Update Clover Configuration
-Open the *EFI* partition created by Clover, and replace the *CLOVER* folder with the most recent *CLOVER* folder [here](). 
+Open the *EFI* partition created by Clover, and replace the *CLOVER* folder with the [attached *CLOVER* folder](https://github.com/uPaymeiFixit/evga-z270-stinger-hackintosh-guide/releases/download/v0.0.1/CLOVER.zip).
 
 This will replace the `config.plist` file with the one I have created as well as install needed kexts. The `config.plist` file I created contains only the minimum configuration needed for a completely working system. I spent many hours testing many configurations and making sure only what was necessary was added. If you want to use more up-to-date kexts, view the *Sources* sectian at the bottom.
 

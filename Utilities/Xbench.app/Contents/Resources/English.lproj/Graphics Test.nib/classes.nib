@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = BenchmarkView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = BenchmarkWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {drawingView = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

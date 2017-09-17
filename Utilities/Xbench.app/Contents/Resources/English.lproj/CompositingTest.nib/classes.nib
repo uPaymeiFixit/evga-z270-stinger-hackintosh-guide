@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {CLASS = CompositingView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = CompositingWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = CustomView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = CustomWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GenericTest; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = UITest; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                check1 = id; 
+                check2 = id; 
+                compositingBaseWindow = id; 
+                compositingOverlayWindow = id; 
+                popup = id; 
+                radios = id; 
+                slider1 = id; 
+                slider2 = id; 
+                textEdit = id; 
+                textView = id; 
+            }; 
+            SUPERCLASS = GenericTest; 
+        }
+    ); 
+    IBVersion = 1; 
+}

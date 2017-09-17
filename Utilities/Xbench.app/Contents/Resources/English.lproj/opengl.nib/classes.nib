@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GenericTest; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = OpenGLTest; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {openglView = id; window = id; }; 
+            SUPERCLASS = GenericTest; 
+        }, 
+        {
+            CLASS = OpenGLTestController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {openglView = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {setClearColor = id; }; 
+            CLASS = OpenGLTestView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSOpenGLView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

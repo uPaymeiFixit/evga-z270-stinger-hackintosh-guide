@@ -1,0 +1,53 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                submitSheetCancel = id; 
+                submitSheetOK = id; 
+                updateDocumentTypeForSaveOperation = id; 
+            }; 
+            CLASS = BenchmarkResultsDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                description = id; 
+                formatView = id; 
+                machineName = id; 
+                machineType = id; 
+                resultsView = id; 
+                submitProgressBar = id; 
+                submitProgressSheet = id; 
+                submitSheet = id; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            ACTIONS = {closeSubmitSheet = id; }; 
+            CLASS = BenchmarkThread; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                description = id; 
+                email = id; 
+                machineType = id; 
+                password = id; 
+                submitCheckbox = id; 
+                submitSheet = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {submissionInfoActivate = id; submitAction = id; }; 
+            CLASS = SubmissionPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                description = id; 
+                email = id; 
+                machineType = id; 
+                password = id; 
+                submitResult = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

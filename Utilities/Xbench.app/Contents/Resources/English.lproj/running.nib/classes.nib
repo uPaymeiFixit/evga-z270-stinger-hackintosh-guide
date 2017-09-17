@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {stop = id; }; 
+            CLASS = BenchmarkThread; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {runningWindow = id; runningWindowCaption = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

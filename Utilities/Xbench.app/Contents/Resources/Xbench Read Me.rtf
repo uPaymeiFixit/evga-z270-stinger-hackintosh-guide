@@ -1,0 +1,401 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf410
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;\f1\fswiss\fcharset77 Helvetica-Bold;\f2\fnil\fcharset77 Monaco;
+}
+{\colortbl;\red255\green255\blue255;\red0\green2\blue255;\red5\green10\blue255;\red2\green11\blue255;
+\red26\green26\blue255;}
+\vieww14740\viewh18740\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx6520\ql\qnatural
+
+\f0\fs18 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx6520\ql\qnatural
+
+\f1\b\fs96 \cf0 Xbench
+\fs100  
+\fs36 v
+\fs48 1.3
+\f0\b0\fs100 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\fs28 \cf0 \
+Xbench was developed to provide a comprehensive benchmarking solution for Mac OS X. Xbench is useful not only for comparing the relative speeds of two different Macintoshes, but also for optimizing performance on a single machine. Xbench is accompanied by a website that allows graphical side-by-side comparison of any out of thousands of submitted benchmarks.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b \cf0 Contact Info\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b0 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+\cf0 For feedback and support, please email: \cf2 feedback@xbench.com\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+\cf0 \ul \ulc0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+\cf0 \ulnone For the latest release, please visit: \cf3 http://xbench.com/\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+\cf0 \ul \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+\cf0 \ulnone To view submitted benchmarks, please visit: \cf3 http://db.xbench.com/\cf0 \ul \
+\ulnone \
+If you find Xbench useful, please consider a donation: \cf4 http://xbench.com/donate.html\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b System Requirements\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+
+\f0\b0 \cf0 Xbench requires Mac OS X 10.3.9 or later.\
+A reasonable amount of free ram will give you higher benchmark numbers.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 	\
+
+\f1\b Known Issues\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li900\fi-200\ql\qnatural
+
+\f0\b0 \cf0 \
+- Some upgraded machines may not display the speed or sizes of their caches properly. This will have to be addressed by the upgrade vendor with driver upgrades.\
+\
+- The dual 1.25 GHz PowerMac G4 (MDD) is currently showing an erroneously high value for L3 cache speed.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b \cf0 Release Notes
+\f0\b0 \
+\
+
+\f1\b 1.3
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li900\fi-200\ql\qnatural
+\cf0 	- Corrected a mistake that caused the altivec test to be turned off on PowerPC machines\
+	- Turned off coalesced graphics updates for all platforms on Mac OS 10.4.4 and higher\
+	- Switched compiler to GCC 4.0 on PowerPC. This provides some boost to floating point and AltiVec scores, and these have been recalibrated accordingly. This also raises Xbench's system requirements to 10.3.9 or higher.\
+- Revised machine database to include the MacBook, Intel iMac and several other models\
+- Added code to dynamically load machine database on launch from the Xbench website\
+	- Added support for temporarily turning off beam sync on Tiger while running graphics tests\
+	- Fixed an issue that causes Xbench to fail to launch on Leopard\
+	- Built with Xcode 2.4\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\ql\qnatural\pardirnatural
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b \cf0 1.2
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li900\fi-200\ql\qnatural
+\cf0 	- Built as a Universal Binary to run on both PowerPC and x86 Macs\
+	- Re-calibrated 100 point baseline to a 2.0 GHz G5 running Tiger\
+	- Altered graphics code to flush only every 1/60th of a second, in order to cooperate with Tiger beam syncing\
+	- Built Intel code on GCC 4.0, PowerPC remains on GCC 3.3 for 10.3 compatibility\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b 1.1.3\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li900\fi-200\ql\qnatural
+
+\f0\b0 \cf0 	- Fixed a CPU test crash on G5s\
+	- Fixed CPU and cache speed reporting on iBooks/PowerBooks under 10.2.8\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b 1.1.2\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li900\fi-200\ql\qnatural
+
+\f0\b0 \cf0 	- Fixed CPU test crash\
+	- Minor changes to thread computation test\
+- Fixed issue limiting RAM reporting to 2 gigabytes on G5s\
+- Fixed a crashing bug during the text test\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b \cf0 1.1.1\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li900\fi-200\ql\qnatural
+
+\f0\b0 \cf0 	- More changes for the PPC 970\
+- Improved vecLib FFT test consistency\
+- Fixed issue causing OpenGL test to hang until clicking in window on certain machines\
+- Fixed L2 cache speed and bus frequency to show in GHz if applicable\
+- Improved optimization on AltiVec basic test\
+- Better optimized stream tests for G4, G5 (thanks Chris Cox)\
+- Added build number to System Version\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b \cf0 1.1
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li900\fi-200\ql\qnatural
+\cf0 - Optimized for the PowerMac G5, compiled with GCC 3.3\
+	- Avoid use of vec_dst on PowerPC 970 for better performance\
+	- Changes to the AltiVec test to reduce dependence on memory bandwidth\
+	- Removed use of vec_dstt\
+	- Changes to floating point test\
+	- Added vecLib FFT test\
+	- Added automatic machine type detection\
+	- Fixed an issue where the results submission sheet caused the results window to become catatonic\
+- Prettier submit button\
+	- Recalibration of CPU tests, Disk tests\
+	- Fixed spinning rainbow cursor during OpenGL test\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b 1.0\
+
+\f0\b0 	- First non-beta release
+\f1\b \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-20\ql\qnatural
+
+\f0\b0 \cf0 - Added \'d2Model\'d3 detection\
+- Added CPU Version detection\
+- Made cache reporting more reliable on upgraded machines\
+- Made processor type detection more reliable on upgraded machines\
+- Corrected a crash while gathering cache information\
+- Improved video card detection on a variety of machines\
+- Fixed detection of dual processors\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li900\fi-200\ql\qnatural
+\cf0 - Fixed a problem causing the UI test to display progressively lower results each time it was run\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-20\ql\qnatural
+\cf0 - Added progress sheet for results submission\
+- Fixed a potential crash while submitting\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b 1.0b7
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-20\ql\qnatural
+\cf0 - added drive type reporting\
+- added video card type reporting\
+- improved L2 & L3 cache reporting for upgrade cards, added cache speed reporting\
+- fixed a potential crash in the User Interface test\
+- fixed a potential crash when an individual test returns its results\
+- added a small pause between tests to allow the UI to catch up\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b \cf0 1.0b6\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li880\fi-180\ql\qnatural
+
+\f0\b0 \cf0 - fixed a bug causing machines to list their processor speeds as \'d21000.00 GHz\'d3, rather than \'d21.00 GHz\'d3\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-20\ql\qnatural
+\cf0 - added G4 Cube, G4 Digital Audio, G4 Gigabit, and G4 Sawtooth to system list\
+- fixed issue causing the User Interface test to freeze\
+- reformatted Read Me to wrap better\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b 1.0b5\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li880\fi-180\ql\qnatural
+
+\f0\b0 \cf0 - fixed last minute bug causing processor info to be omitted\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b \cf0 1.0b4\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li880\fi-180\ql\qnatural
+
+\f0\b0 \cf0 - added results comparison via website\
+- revised main window interface\
+- stylized icon further\
+- added stop button to status window\
+- extended help menu
+\f1\b \
+
+\f0\b0 - switched to a harmonic score average\
+- added L2 and L3 cache and bus speed reporting\
+- removed Thread memory contention test, as it didn't give predictable or useful results\
+- improved results stability for disk test, sped up 4K block tests\
+- allowed OpenGL test to run on machines without hardware acceleration\
+- Xbench now quits on closing the main application window\
+- improved error handling\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b 1.0b3\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li880\fi-180\ql\qnatural
+
+\f0\b0 \cf0 - added \'d2Spinning Squares\'d3 OpenGL test\
+- fixed altivec test to better utilize caches & not cause VM thrash on low memory machines\
+- added 4k block size disk test (simulates heavy VM paging)\
+- fixed bug causing erroneously high results on almost-full disks\
+- added L1 cache size, and bus frequency reporting [L2 and L3 reporting not yet working]\
+- added document icons\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b 1.0b2\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li880\fi-180\ql\qnatural
+
+\f0\b0 \cf0 - added option to save file in Xbench format, or as a plain text file\
+- added ability to copy benchmark results as text\
+- added popup to allow selection of disk to benchmark\
+- new \'d2Thread Test\'d3\
+- added a \'d2System Info\'d3 section\
+- new AltiVec test [within CPU test]\
+- added a new \'d2Detail\'d3 column, giving unit/second measures for most tests\
+- added an error dialog when run on pre-10.2 systems\
+- fixed an error causing the UI test to run slower on dual processor systems\
+- re-calibrated the disk test to use an IDE disk, pending tech support on ATTO SCSI card\
+- fixed an error causing the graphics test to produce the following console log message: 
+\f2\fs20 kCGErrorFailure : CGContextClosePath: no current point
+\f0\fs28 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b 1.0b1
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li880\fi-180\ql\qnatural
+\cf0 - first public release\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b About \'d2Score\'d3\
+
+\f0\b0 \
+	The reported score is defined relative to the author\'d5s development machine [a dual 800 MHz G4], with that machine equalling roughly 100 on all tests. The score baseline is set for the currently shipping version of Mac OS X.\
+\
+	The reported average score should be somewhat useful in comparing multiple Mac OS X systems, although comparisons should only be done between results from the same release of Xbench. The score is 
+\f1\b not
+\f0\b0  guaranteed to be representative of any particular real-world task.\
+\
+	The score average is calculated using a harmonic average - each top level test area is weighted the same.\
+\
+
+\f1\b The Baseline System\
+
+\f0\b0 \
+	This is the author's primary development machine, and the benchmark score, mentioned above, is currently calibrated to be 100 on this machine.\
+\
+Specs:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+\cf0 Model:			PowerMac G5\
+Machine speed:		2.0 GHz G5 DP\
+Bus speed:			1 GHz\
+L2 cache:			512k @ 2GHz (times 2)\
+Boot ROM:			5.1.8f7\
+Memory:			2.5 GB\
+Operating System:	10.4.7 (8J135)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li3620\fi-2900\ql\qnatural
+\cf0 Disk Tested:		Maxtor DiamondMax 10 300GB (6B300S0) connected to on-board SATA\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\ql\qnatural
+\cf0 Graphics Card:		NVIDIA GeForce 6800 Ultra\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f1\b About the Tests\
+\
+	
+\f0\b0 Because OS X is a multitasking operating system, it can be somewhat difficult to obtain stable benchmark results. Before running the benchmark, it is advisable to quit any applications or background tasks that consume CPU, or large amounts of memory. A future release will provide an option for adjusting process priorities, which should help provide consistent benchmark results. If you run the benchmark, and you hear the disk running during tests other than the disk test, you may be starting to page into VM, which will lower your scores considerably.\
+
+\f1\b \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b0 \cf0 	Remember \'d1 all tests can be impacted by open applications, or having little memory available. You should be able to use top or ProcessViewer prior to running the benchmark to help you determine if any background processes/applications are using CPU time, or large amounts of memory.\
+\
+
+\f1\b 1. System Info
+\f0\b0 \
+	Shows you information about your Xbench version, system version, video card, hard disk, and processor information\
+\
+
+\f1\b 2. CPU Test\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+
+\f0\b0 \cf0 Single processor only - a test of one application doing single-threaded work\
+A) GCD Recursion - almost entirely limited by the processor's register speed, L1 cache, and integer math\
+B) Floating Point Basic - measures single precision floating point operations (+, -, *, /)\
+C) AltiVec Basic - measures single precision floating point operations implemented with AltiVec operations\
+D) vecLib FFT - measures system vecLib Fast Fourier Transform performance\
+E) Floating Point Library - measures double precision math library operations like sin, cos, sqrt, etc.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 \
+The \'d2FLOP\'d3 rating is not directly comparable to theoretical FLOPs, or a real-world FLOPs produced by another benchmark.\
+\
+
+\f1\b 3. Thread Test 
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+\cf0 tests multiple processors - a test of multiple applications, or a single app doing multithreading\
+A) Computation - measures 4 worker threads performing integer operations, plus some memory bandwidth\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1800\fi-340\ql\qnatural
+\cf0 - always faster on MP machines\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+\cf0 B) Lock Contention - measures 4 threads quickly acquiring and releasing thread locks\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1800\fi-340\ql\qnatural
+\cf0 - usually faster on MP machines\
+- locking performance may be important in certain types of multithreaded code.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 \
+The thread tests aren't representative of all types of threaded code, but they do measure some of the factors that affect threaded applications.\
+\
+
+\f1\b 4. Memory Test
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+\cf0 tests ability to perform memory operations\
+A) System\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1800\fi-340\ql\qnatural
+\cf0 a) Allocate - measures the system's ability to allocate many varying-sized blocks of data, using standard system calls\
+b) Fill - measures the system's ability to fill a large block with data, using standard system calls\
+c) Copy - measures the system's ability to copy data from one block to another, using standard system calls\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+\cf0 B) Stream (derived from the standard STREAM benchmark - \cf5 \ul \ulc5 http://www.cs.virginia.edu/stream/\cf0 \ulnone )\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1800\fi-340\ql\qnatural
+\cf0 These use 64-bit doubles and AltiVec cache prefetching when appropriate\
+a) Copy - measures copying speed between 2 large buffers,\
+b) Scale - measures load-float multiply-store operations between 2 large buffers\
+c) Add - measures load-load-add-store operations between 3 large buffers\
+d) Triad - measures load-load-multiply-add-store operations between 3 large buffers (scale and add in one step)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 \
+These tests will do better with more memory bandwidth. On a system with very little memory, these may perform slowly.\
+\
+
+\f1\b 5. Quartz Graphics Test
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+\cf0 A) Line - measures drawing lines of varying widths, colors and rotations at 50% alpha\
+B) Rectangle - measures drawing rects of varying widths, colors and rotations at 50% alpha\
+C) Circle - measures drawing circles of varying diameter, colors and rotations at 50% alpha\
+D) Bezier - measures drawing beziers of varying widths, colors and rotations at 50% alpha\
+E) Text - measures drawing characters of varying font sizes and rotations at 100% alpha\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 \
+This test does better with a better graphics card, more memory bandwidth, more CPU, altivec, etc. It's up to the system how to optimize the drawing.\
+\
+
+\f1\b 6. OpenGL Test\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+
+\f0\b0 \cf0 A) Spinning Squares - measures frame rates of a scene containing numerous semi-transparent tiles\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 \
+This test does better on a better graphics card, or with a faster processor. As it measures windowed OpenGL, it may not accurately measure the performance of full-screen OpenGL.\
+
+\f1\b \
+7. User Interface Test\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+
+\f0\b0 \cf0 A) Elements - measures redraw rate of a window containing typical system controls\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 \
+This test does better on a better graphics card, or with a faster processor. It measures the operating system's performance drawing standard system controls.\
+\
+
+\f1\b 8. Disk Test
+\f0\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+\cf0 A) Sequential\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1800\fi-340\ql\qnatural
+\cf0 These tests measure typical throughput to the drive.\
+a) Uncached Write - measures writing in 4K and 256k blocks until a 100MB file is filled\
+b) Uncached Read - measures reading in a 100MB file in 4K and 256K blocks\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1100\fi-380\ql\qnatural
+\cf0 B) Random\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1800\fi-340\ql\qnatural
+\cf0 These tests will be more impacted by the disks's seek time\
+a) Uncached Write - measures writing in 4K and 256k blocks in random locations into a 100MB file\
+b) Uncached Read - measures reading 4K and 256k blocks at random locations in a 100MB file\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 \
+Most disks have slower throughput as they become more full and/or fragmented, so an extremely full disk may perform worse than expected. In some cases, restarting a machine may correct inordinately low test scores.\
+}

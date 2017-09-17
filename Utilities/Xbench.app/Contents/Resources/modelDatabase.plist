@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ADP2,1</key>
+	<string>Intel Developer Transition System</string>
+	<key>iMac,1</key>
+	<string>iMac (CRT)</string>
+	<key>iMac4,1</key>
+	<string>iMac (Intel)</string>
+	<key>MacBook1,1</key>
+	<string>MacBook</string>
+	<key>MacBookPro1,1</key>
+	<string>MacBook Pro</string>
+	<key>Macmini1,1</key>
+	<string>Mac mini (Intel)</string>
+	<key>MacPro1,1</key>
+	<string>Mac Pro</string>
+	<key>Power Macintosh</key>
+	<string>PowerMac G3 (Beige)</string>
+	<key>PowerBook</key>
+	<string>PowerBook G3 (Wallstreet)</string>
+	<key>PowerBook1,1</key>
+	<string>PowerBook G3 (Lombard)</string>
+	<key>PowerBook2,1</key>
+	<string>iBook (Fruit)</string>
+	<key>PowerBook2,2</key>
+	<string>iBook (Fruit)</string>
+	<key>PowerBook3,1</key>
+	<string>PowerBook G3 (Pismo)</string>
+	<key>PowerBook3,2</key>
+	<string>PowerBook G4 (Ti)</string>
+	<key>PowerBook3,3</key>
+	<string>PowerBook G4 (Ti)</string>
+	<key>PowerBook3,4</key>
+	<string>PowerBook G4 (Ti)</string>
+	<key>PowerBook3,5</key>
+	<string>PowerBook G4 (Ti)</string>
+	<key>PowerBook4,1</key>
+	<string>iBook (White)</string>
+	<key>PowerBook4,2</key>
+	<string>iBook (White)</string>
+	<key>PowerBook4,3</key>
+	<string>iBook (White)</string>
+	<key>PowerBook5,1</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook5,2</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook5,3</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook5,4</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook5,5</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook5,6</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook5,7</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook5,8</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook5,9</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook6,1</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook6,2</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook6,3</key>
+	<string>iBook G4</string>
+	<key>PowerBook6,4</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerBook6,5</key>
+	<string>iBook G4</string>
+	<key>PowerBook6,7</key>
+	<string>iBook G4</string>
+	<key>PowerBook6,8</key>
+	<string>PowerBook G4 (Al)</string>
+	<key>PowerMac1,1</key>
+	<string>PowerMac G3 (B&amp;W)</string>
+	<key>PowerMac1,2</key>
+	<string>PowerMac G4 (Yikes!)</string>
+	<key>PowerMac10,1</key>
+	<string>Mac Mini</string>
+	<key>PowerMac10,2</key>
+	<string>Mac Mini</string>
+	<key>PowerMac11,2</key>
+	<string>PowerMac G5 (Late 2005)</string>
+	<key>PowerMac12,1</key>
+	<string>iMac G5 (iSight)</string>
+	<key>PowerMac2,1</key>
+	<string>iMac (CRT)</string>
+	<key>PowerMac2,2</key>
+	<string>iMac (CRT)</string>
+	<key>PowerMac3,1</key>
+	<string>PowerMac G4 (Sawtooth)</string>
+	<key>PowerMac3,2</key>
+	<string>PowerMac G4 (Sawtooth)</string>
+	<key>PowerMac3,3</key>
+	<string>PowerMac G4 (Gigabit)</string>
+	<key>PowerMac3,4</key>
+	<string>PowerMac G4 (Digital Audio)</string>
+	<key>PowerMac3,5</key>
+	<string>PowerMac G4 (QuickSilver)</string>
+	<key>PowerMac3,6</key>
+	<string>PowerMac G4 (MDD)</string>
+	<key>PowerMac4,1</key>
+	<string>iMac (CRT)</string>
+	<key>PowerMac4,2</key>
+	<string>iMac (Flat Panel)</string>
+	<key>PowerMac4,4</key>
+	<string>eMac</string>
+	<key>PowerMac4,5</key>
+	<string>iMac (Flat Panel)</string>
+	<key>PowerMac5,1</key>
+	<string>PowerMac G4 (Cube)</string>
+	<key>PowerMac6,1</key>
+	<string>iMac (Flat Panel)</string>
+	<key>PowerMac6,3</key>
+	<string>iMac (Flat Panel)</string>
+	<key>PowerMac6,4</key>
+	<string>eMac (USB 2.0)</string>
+	<key>PowerMac7,2</key>
+	<string>PowerMac G5 (Orig)</string>
+	<key>PowerMac7,3</key>
+	<string>PowerMac G5 (June 2004)</string>
+	<key>PowerMac8,1</key>
+	<string>iMac G5</string>
+	<key>PowerMac8,2</key>
+	<string>iMac G5</string>
+	<key>PowerMac9,1</key>
+	<string>PowerMac G5 (Late 2004)</string>
+	<key>RackMac1,1</key>
+	<string>Xserve</string>
+	<key>RackMac1,2</key>
+	<string>Xserve</string>
+	<key>RackMac3,1</key>
+	<string>Xserve G5</string>
+</dict>
+</plist>

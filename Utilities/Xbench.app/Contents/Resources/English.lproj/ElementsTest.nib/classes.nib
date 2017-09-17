@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GenericTest; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = UITest; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                button = id; 
+                check1 = id; 
+                check2 = id; 
+                compositingBaseWindow = id; 
+                compositingOverlayWindow = id; 
+                elementsWindow = id; 
+                popup = id; 
+                progress = id; 
+                radios = id; 
+                slider1 = id; 
+                slider2 = id; 
+                textEdit = id; 
+                textView = id; 
+            }; 
+            SUPERCLASS = GenericTest; 
+        }
+    ); 
+    IBVersion = 1; 
+}

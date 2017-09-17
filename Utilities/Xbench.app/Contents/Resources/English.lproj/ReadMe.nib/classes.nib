@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                closeWelcomeSheet = id; 
+                donate = id; 
+                feedbackEmail = id; 
+                showHelp = id; 
+                website = id; 
+            }; 
+            CLASS = ApplicationController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bigButton = id; 
+                diskPopup = id; 
+                mainWindow = id; 
+                readmeView = id; 
+                readmeWindow = id; 
+                welcomeSheet = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {feedbackEmail = id; showHelp = id; }; 
+            CLASS = XbenchApp; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {diskPopup = id; readmeView = id; readmeWindow = id; }; 
+            SUPERCLASS = NSApplication; 
+        }
+    ); 
+    IBVersion = 1; 
+}

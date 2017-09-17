@@ -9,7 +9,7 @@ This guide will show you how to install **macOS Sierra 10.12.6** on a desktop ru
 - [Asus GTX 670 4GB (GTX670-DC2-4GD5)](https://www.asus.com/us/Graphics-Cards/GTX670DC24GD5/)
 - [Samsung 960 EVO NVMe M.2 500GB](http://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-960-evo-m-2-500gb-mz-v6e500bw/)
 
-Note: This guide may need to be tweaked or similar hardware, such as any other 200 series motherboard. Any (or no) NVMe drive, any Kaby Lake CPU, and any GPU will likely work as is. 
+Note: This guide may need to be tweaked for similar hardware, such as any other 200 series motherboard. Any (or no) NVMe drive, any Kaby Lake CPU, and any GPU will likely work as is. 
 
 ## What works
 - [x] GPU hardware acceleration
@@ -77,7 +77,7 @@ Download the latest version of the Clover EFI bootloader ([direct link](https://
 Click *Continue* twice, and then *Change Install Location...* to select your flash drive.
 ![image](https://user-images.githubusercontent.com/1683528/30508752-04d93520-9a53-11e7-8003-2316e5a1b725.png)
 
-Click *Continue* again and then click *Customize* and check "Install or UEI booting only"
+Click *Continue* again and then click *Customize* and check "Install or UEFI booting only"
 ![image](https://user-images.githubusercontent.com/1683528/30450149-d7581b9c-9945-11e7-8549-76febcebe104.png)
 
 Then click *Install* to complete the Clover installation.
@@ -85,7 +85,7 @@ Then click *Install* to complete the Clover installation.
 #### Update Clover Configuration
 Open the *EFI* partition created by Clover, and replace the *EFI* folder with the [attached *EFI* folder](https://github.com/uPaymeiFixit/evga-z270-stinger-hackintosh-guide/releases/download/v0.0.1/EFI.zip).
 
-This will replace the `config.plist` file with the one I have created as well as install needed kexts. The `config.plist` file I created contains only the minimum configuration needed for a completely working system. I spent many hours testing many configurations and making sure only what was necessary was added. If you want to use more up-to-date kexts, view the *Sources* sectian at the bottom.
+This will replace the `config.plist` file with the one I have created as well as install needed kexts. The `config.plist` file I created contains only the minimum configuration needed for a completely working system. I spent many hours testing many configurations and making sure only what was necessary was added. If you want to use more up-to-date kexts, view the *Sources* section at the bottom.
 
 ## Step 3: Conigure BIOS
 During boot, press F2 to enter BIOS. Navigate to the *ADVANCED* tab and then click on *CPU Configuration*. Set *Intel(R) Virtualization Technology For Directed I/O* to *Disabled*. 
@@ -106,7 +106,7 @@ Download the latest version of the Clover EFI bootloader ([direct link](https://
 Click *Continue* twice, and then *Change Install Location...* to select your macOS installation.
 ![image](https://user-images.githubusercontent.com/1683528/30517483-b7328baa-9b15-11e7-967f-afe30857dfeb.png)
 
-Click *Continue* again and then click *Customize* and check "Install or UEI booting only"
+Click *Continue* again and then click *Customize* and check "Install or UEFI booting only"
 ![image](https://user-images.githubusercontent.com/1683528/30450149-d7581b9c-9945-11e7-8549-76febcebe104.png)
 
 Then click *Install* to complete the Clover installation.
@@ -114,7 +114,7 @@ Then click *Install* to complete the Clover installation.
 #### Update Clover Configuration
 Open the *EFI* partition created by Clover, and replace the *EFI* folder with the [attached *EFI* folder](https://github.com/uPaymeiFixit/evga-z270-stinger-hackintosh-guide/releases/download/v0.0.1/EFI.zip).
 
-This will replace the `config.plist` file with the one I have created as well as install needed kexts. The `config.plist` file I created contains only the minimum configuration needed for a completely working system. I spent many hours testing many configurations and making sure only what was necessary was added. If you want to use more up-to-date kexts, view the *Sources* sectian at the bottom.
+This will replace the `config.plist` file with the one I have created as well as install needed kexts. The `config.plist` file I created contains only the minimum configuration needed for a completely working system. I spent many hours testing many configurations and making sure only what was necessary was added. If you want to use more up-to-date kexts, view the *Sources* section at the bottom.
 
 # Kexts / Patches / Sources
 - [NVMe Kext Patch (config.plist)](https://pikeralpha.wordpress.com/2016/06/27/nvmefamily-kext-bin-patch-data/comment-page-1/#comment-5855) from Pike R. Alpha

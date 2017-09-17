@@ -89,8 +89,10 @@ This will replace the `config.plist` file with the one I have created as well as
 
 ## Step 3: Conigure BIOS
 During boot, press F2 to enter BIOS. Navigate to the *ADVANCED* tab and then click on *CPU Configuration*. Set *Intel(R) Virtualization Technology For Directed I/O* to *Disabled*. 
+![img_20170915_202425](https://user-images.githubusercontent.com/1683528/30518388-896d9f0e-9b31-11e7-9eed-8c92ac6e1fff.jpg)
 
 Set the primary boot device to USB Hard Disk.
+![img_20170915_202326](https://user-images.githubusercontent.com/1683528/30518394-a139cee6-9b31-11e7-9d8b-956b71c48f40.jpg)
 
 Now press F10 to save and exit setup. Alternatively, you may apply the BIOS backup I created [here]().
 

@@ -27,6 +27,11 @@
 		<key>SSDT</key>
 		<dict/>
 	</dict>
+	<key>GUI</key>
+	<dict>
+		<key>TextOnly</key>
+		<true/>
+	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>

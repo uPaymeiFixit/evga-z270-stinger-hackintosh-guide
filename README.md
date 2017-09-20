@@ -39,6 +39,10 @@ Note: This guide may need to be tweaked for similar hardware, such as any other 
 - [ ] Power button
 - [ ] Wi-Fi (AW-CB210NF-P)
 - [ ] Bluetooth
+- [ ] HDCP
+- [ ] Nvidia Web Drivers
+- [ ] Accurate External / Internal drive icons
+- [ ] Sleep slider in *System Preferences > Energy Saver* is missing
 
 # Instructions
 ## Step 1: Download macOS Sierra

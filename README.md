@@ -1,3 +1,5 @@
+![img_20170917_020151](https://user-images.githubusercontent.com/1683528/30621820-3f35d7b6-9d62-11e7-9b85-1957c73bbfdb.png)
+
 # Sierra Hackintosh Guide for EVGA Z270 Stinger (200 series)
 A guide for installing macOS Sierra on an EVGA Z270 Stinger motherboard and i7-7700k
 

@@ -11,6 +11,8 @@ This guide will show you how to install **macOS Sierra 10.12.6** on a desktop ru
 - [Asus GTX 670 4GB (GTX670-DC2-4GD5)](https://www.asus.com/us/Graphics-Cards/GTX670DC24GD5/)
 - [Samsung 960 EVO NVMe M.2 500GB](http://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-960-evo-m-2-500gb-mz-v6e500bw/)
 
+[View on PC Part Picker](https://pcpartpicker.com/b/ycMZxr)
+
 Note: This guide may need to be tweaked for similar hardware, such as any other 200 series motherboard. Any (or no) NVMe drive, any Kaby Lake CPU, and any GPU will likely work as is. 
 
 ## What works
